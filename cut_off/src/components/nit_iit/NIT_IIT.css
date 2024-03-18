@@ -1,0 +1,55 @@
+.NIT_IIT-container {
+    width: 100%;
+    height: calc(100vh - 90px);
+}
+.NIT_IIT-container .heading {
+    width: 100%;
+    height: 60px;
+}
+.NIT_IIT-container h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.NIT_IIT-container .data-container {
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: 30px auto;
+    max-width: 60%;
+    max-height: 80%;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.NIT_IIT-container .data-container .form-select {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    padding-left: 20px;
+    color: gray;
+}
+.NIT_IIT-container .btn {
+    text-align: center;
+}
+.NIT_IIT-container .btn button {
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    background-color: #454b50;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}

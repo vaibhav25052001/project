@@ -1,0 +1,9 @@
+.bg-container .bg-image {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 90px);
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.9;
+  z-index: -1;
+}
